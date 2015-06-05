@@ -1,14 +1,5 @@
 <?xml version="1.0" ?>
 <page title="Videos">
   <screenshot-menu/> 
-  <object width="480" height="385" class="youtube">
-    <param name="movie" value="http://www.youtube.com/v/NPTWg3g-1lM&amp;hl=en_US&amp;fs=1&amp;"></param>
-    <param name="allowFullScreen" value="true"></param>
-    <param name="allowscriptaccess" value="always"></param>
-    <embed src="http://www.youtube.com/v/NPTWg3g-1lM&amp;hl=en_US&amp;fs=1&amp;"
-           type="application/x-shockwave-flash" 
-           allowscriptaccess="always" 
-           allowfullscreen="true" 
-           width="480" height="385" />
-  </object>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/NPTWg3g-1lM" frameborder="0" allowfullscreen="1"></iframe>
 </page>
