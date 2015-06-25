@@ -85,7 +85,7 @@
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <div style="margin: 0px; padding: 0px;">
               <input type="hidden" name="cmd" value="_xclick" />
-              <input type="hidden" name="business" value="grumbel@gmx.de" />
+              <input type="hidden" name="business" value="grumbel@gmail.com" />
               <input type="hidden" name="item_name" value="Pingus donation" />
               <input type="hidden" name="no_note" value="1" />
               <input type="hidden" name="currency_code" value="EUR" />
