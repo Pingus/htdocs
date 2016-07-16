@@ -2,53 +2,53 @@
 <page title="About">
   <section title="What is Pingus?">
     <p>
-      Pingus is 
-      free <a href="http://en.wikipedia.org/wiki/Lemmings">Lemmings<sup>tm</sup></a>-
-      puzzle game covered 
-      the <a href="http://www.gnu.org/copyleft/gpl.html">
-        GPL</a>. It features currently 77 playable levels and runs 
+      Pingus is a
+      free <a href="http://en.wikipedia.org/wiki/Lemmings">Lemmings<sup>tm</sup></a>-like
+      puzzle game covered under
+      the <a href="http://www.gnu.org/copyleft/gpl.html">GNU
+        GPL</a>. It features currently 77 playable levels and runs under
       a wide variety of operating systems (Linux, Windows, MacOSX, etc.)
     </p>
   </section>
 
   <section title="The Game">
     <p>
-      Pingus has started at the end of 1998 with the simple goal 
+      Pingus has started at the end of 1998 with the simple goal to
       create a Free (as in freedom, not as in free beer)
-      Lemmings<sup>tm</sup> clone. The <em>Free</em> means you get 
-      sources and are allowed and encouraged to change and 
-      them. You basically get everything that I used to create 
-      game. In the years it has grown than quite a bit over 
-      original goal and become something more than just a clone, 
+      Lemmings<sup>tm</sup> clone. The <em>Free</em> means you get the
+      sources and are allowed and encouraged to change and distribute
+      them. You basically get everything that I used to create this
+      game. In the years it has grown than quite a bit over the
+      original goal and become something more than just a clone, we
       have original artwork, a built-in level editor, new actions,
       multiplayer and a few other features.
     </p>
 
     <p>
-      If you don't know Lemmings<sup>tm</sup>, here comes a 
-      introduction. It is a puzzle game developed in 
-      by <a href="http://www.mobygames.com/company/sheet/companyId,146/">
-        Design</a>. The player takes command in the game of a bunch 
-      small animals and has to guide them through levels. Since 
-      animals walk on their own, the player can only influence them 
+      If you don't know Lemmings<sup>tm</sup>, here comes a short
+      introduction. It is a puzzle game developed in 1991
+      by <a href="http://www.mobygames.com/company/sheet/companyId,146/">DMA
+        Design</a>. The player takes command in the game of a bunch of
+      small animals and has to guide them through levels. Since the
+      animals walk on their own, the player can only influence them by
       giving them commands, like <em>build a bridge</em>,
-      <em>dig a hole</em> or <em>redirect all animals in the 
+      <em>dig a hole</em> or <em>redirect all animals in the other
 	direction</em>. The goal of each level is to reach the exit,
-      for this multiple combination of commands are necessary.  
-      game is presented in a 2D site view. For more information 
-      might want to visit one of the 
+      for this multiple combination of commands are necessary.  The
+      game is presented in a 2D site view. For more information you
+      might want to visit one of the numerous
       visit <a href="http://web.archive.org/web/20110718120402/http://www.deveria.com/alexis/lemmings/fanlinks.html">Lemmings<sup>tm</sup>
 	fanpages</a> on the net.
     </p>
 
     <p>
-      While Pingus is based on the idea of Lemmings<sup>tm</sup>, 
-      however doesn't try to be an exact clone, it has included a 
-      ideas of its own, like the worldmap or secret levels, 
-      might be familiar from games the Super Mario World and 
-      Nintendo games. It has also a few new actions, like the 
-      which weren't presented in the original game. To get 
-      impression of the look of the Pingus game you might want to 
+      While Pingus is based on the idea of Lemmings<sup>tm</sup>, it
+      however doesn't try to be an exact clone, it has included a few
+      ideas of its own, like the worldmap or secret levels, which
+      might be familiar from games the Super Mario World and other
+      Nintendo games. It has also a few new actions, like the jumper
+      which weren't presented in the original game. To get an
+      impression of the look of the Pingus game you might want to have
       a look at some <a href="screenshots.html">screenshots</a>.
     </p>
 

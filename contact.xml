@@ -3,10 +3,10 @@
   
   <section title="Mailing Lists">
     <p>
-      If you want to write a longer comment, send patches or 
-      thing, the best way is probably by using the pingus-
-      mailing lists, subscribe information can be found below, to 
-      send a mail to the list write to <
+      If you want to write a longer comment, send patches or similar
+      thing, the best way is probably by using the pingus-devel
+      mailing lists, subscribe information can be found below, to just
+      send a mail to the list write to <a
 	href="mailto:pingus-devel@nongnu.org?subject:[non-member]">pingus-devel@nongnu.org</a>.
     </p>
 
@@ -16,28 +16,28 @@
 	- Pingus Developer List (for general discussion about the game, the development, etc.).
       </li>
     </ul>
-    <p>There is currently no pingus-users mailing list due to the 
-      of traffic, so using the pingus-devel list for questions about 
+    <p>There is currently no pingus-users mailing list due to the lack
+      of traffic, so using the pingus-devel list for questions about the
       game is perfectly ok.</p>
   </section>
 
   <section title="Bug Reports">
     <p>
-      If you want to submit a bug report about Pingus or simply 
-      the list of open bugs, you can do so 
-      the <a href="https://github.com/Pingus/pingus/issues">
-      Issue Tracker</a>. Submitting stuff there should make it 
+      If you want to submit a bug report about Pingus or simply browse
+      the list of open bugs, you can do so at
+      the <a href="https://github.com/Pingus/pingus/issues">Pingus
+      Issue Tracker</a>. Submitting stuff there should make it sure
       that it doesn't get lost.
     </p>
   </section>
 
   <section title="IRC">
-    <p>For a quick help you can try the IRC server <
-      class="irc">irc.freenode.net:6667</tt> and the channel <
-      class="irc">#pingus</tt>, you can find the project 
-      (nick: grumbel) there most of the time. From time to time 
-      will also be IRC Meetings with larger parts of the 
-      team, once such meetings happen, they will get announced in 
+    <p>For a quick help you can try the IRC server <tt
+      class="irc">irc.freenode.net:6667</tt> and the channel <tt
+      class="irc">#pingus</tt>, you can find the project maintainer
+      (nick: grumbel) there most of the time. From time to time there
+      will also be IRC Meetings with larger parts of the development
+      team, once such meetings happen, they will get announced in the
       news section.
     </p>
   </section>
@@ -45,7 +45,7 @@
 
   <section title="Instant Messaging">
     <p>
-      If you don't like IRC, there is also the possibility to 
+      If you don't like IRC, there is also the possibility to contact
       us directly via Instant Messaging.
     </p>
 
@@ -54,7 +54,7 @@
       <dd> 
         Email: <a href="mailto:grumbel@gmail.com?subject=Pingus">grumbel@gmail.com</a><br/>
         Jabber: <a href="xmpp:grumbel@jabber.org">xmpp:grumbel@jabber.org</a><br/>
-        ICQ UIN: 
+        ICQ UIN: 59461927
       </dd>
     </dl>
 

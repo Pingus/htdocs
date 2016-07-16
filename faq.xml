@@ -8,9 +8,9 @@
         <question>I am stuck, how can I beat level XY?</question>
         <answer>
           <p>
-            You can 
-            full <a href="http://www.youtube.com/playlist?list=PL85CB546B69E1E313">
-              videos for the Tutorial Island and the Halloween 
+            You can find
+            full <a href="http://www.youtube.com/playlist?list=PL85CB546B69E1E313">walkthrough
+              videos for the Tutorial Island and the Halloween 2007
               levelset</a> on Youtube.
           </p>
         </answer>
@@ -20,30 +20,30 @@
         <question>Where can I find more levels?</question>
         <answer>
           <p>
-            Besides the 22 tested and cleaned up levels of the first island 
-            come with Pingus. There are also around 120 levels that might 
+            Besides the 22 tested and cleaned up levels of the first island that
+            come with Pingus. There are also around 120 levels that might be
             playable and another 100 levels that are incomplete at the moment.
-            These levels can be found in the <tt>data/levels/playable</tt> 
+            These levels can be found in the <tt>data/levels/playable</tt> and
             <tt>data/levels/wip/</tt> (wip = work in progress)
             directories:
           </p>
           <dl>
             <dt><tt>data/levels/playable/</tt></dt>
             <dd>
-              The levels in 
-              <tt>playable/</tt> directory might be playable, but 
-              is no guarantee for that. They might been broken due 
-              engine changes, they might be far too easy or far too 
+              The levels in the
+              <tt>playable/</tt> directory might be playable, but there
+              is no guarantee for that. They might been broken due to
+              engine changes, they might be far too easy or far too hard
               or simply incomplete.
             </dd>
 
             <dt><tt>data/levels/wip/</tt></dt>
             <dd>
-              The <tt>wip/</tt> directory 
-              levels that are not playable at all. Some of them 
-              even lack entrances and/or exits. Don't be surprised 
-              you can't play them. Instead, these levels can be used 
-              starting points for levels you want to create 
+              The <tt>wip/</tt> directory contains
+              levels that are not playable at all. Some of them might
+              even lack entrances and/or exits. Don't be surprised that
+              you can't play them. Instead, these levels can be used as
+              starting points for levels you want to create yourself
               with the level editor.
             </dd>
           </dl>
@@ -62,8 +62,8 @@
             <code>pingus data/levels/playable/somelevel.pingus</code>
           </p>
           <p>
-            The other, probably more userfriendly, way is to 
-            load them into the level editor and then click the 
+            The other, probably more userfriendly, way is to simply
+            load them into the level editor and then click the play
             button.
           </p>          
         </answer>
@@ -76,42 +76,42 @@
 
         <answer>
           <p>
-            There are multiple ways to tune the running speed 
-            Pingus. <br /> Firstly, reducing the screen 
-            depth (to 16bit, for example) on a slower computer 
-            give you a boost of around 50% percent, depending on 
-            hardware. X11 doesn't allow switching color depth at 
-            time, and the exact instructions for doing this are 
-            of the scope of this FAQ. Consult your 
+            There are multiple ways to tune the running speed of
+            Pingus. <br /> Firstly, reducing the screen colour
+            depth (to 16bit, for example) on a slower computer might
+            give you a boost of around 50% percent, depending on your
+            hardware. X11 doesn't allow switching color depth at run
+            time, and the exact instructions for doing this are outside
+            of the scope of this FAQ. Consult your distribution
             documentation for more information.
           </p>
 
-          <p>Secondly, a gain in speed can be achieved 
-            reducing the display resolution of Pingus. For example, 
-            you want to run Pingus at 640x480 you can do this with 
+          <p>Secondly, a gain in speed can be achieved by
+            reducing the display resolution of Pingus. For example, if
+            you want to run Pingus at 640x480 you can do this with the
             following command:</p>
 
           <p><code>pingus -g 640x480</code></p>
 
-          <p>Thirdly, you can run Pingus in a <em>fast-mode</em>.  
-            mode disables all costly particle effects and 
-            background.  Thus, Pingus will look less pretty, but 
-            probably be a good amount faster. Fast-mode can be turned 
+          <p>Thirdly, you can run Pingus in a <em>fast-mode</em>.  This
+            mode disables all costly particle effects and the
+            background.  Thus, Pingus will look less pretty, but will
+            probably be a good amount faster. Fast-mode can be turned on
             with:</p>
 
           <p><code>pingus --fast-mode</code></p>
           
-          <p>Remember, the <em>fast-mode</em> has lots of room 
-            improvement. If it doesn't help you make Pingus run 
+          <p>Remember, the <em>fast-mode</em> has lots of room for
+            improvement. If it doesn't help you make Pingus run fast
             enough, not all is lost.</p>
           
-          <p>If that is not enough, you might also want to 
+          <p>If that is not enough, you might also want to play
             with the <tt>min-frame-skip</tt> and <tt>max-frame-skip</tt>
             options.  Both should result in a more uniform frame-rate.
-            This can make the game jerky, but playability can 
+            This can make the game jerky, but playability can be
             improved nonetheless.</p>
 
-          <p>Finally, the 'F11' key can help you a great deal 
+          <p>Finally, the 'F11' key can help you a great deal in
             your optimisation process by showing the frame-rate counter.</p>
         </answer>
       </faq>
