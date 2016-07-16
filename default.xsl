@@ -74,31 +74,6 @@
         <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
       </head>
       <body>
-        <div style="position: absolute; left: 16px; top: 16px;">
-          <script type="text/javascript">
-	    var flattr_url = 'http://pingus.seul.org';
-          </script>
-          <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
-        </div>
-
-        <div style="position: absolute; right: 16px; top: 16px;">
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <div style="margin: 0px; padding: 0px;">
-              <input type="hidden" name="cmd" value="_xclick" />
-              <input type="hidden" name="business" value="grumbel@gmail.com" />
-              <input type="hidden" name="item_name" value="Pingus donation" />
-              <input type="hidden" name="no_note" value="1" />
-              <input type="hidden" name="currency_code" value="EUR" />
-              <input type="hidden" name="tax" value="0" />
-              <input type="image" src="http://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="donate via PayPal" />
-            </div>
-          </form>
-        </div>
-
-        <div style="position: absolute; left: 16px; top: 100px;">
-          <a href="bitcoin:1C1LQVQJj7KFbAPc1woZbcS5oEHBfnJv2L"><img src="images/donatebitcoin.png" alt="Donate via Bitcoin"/></a>
-        </div>
-
         <div id="logo">
           <a href="http://pingus.seul.org"><img src="images/logo_pingus.png" alt="Pingus" /></a>
         </div>
