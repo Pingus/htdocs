@@ -4,14 +4,14 @@
   <section title="Playable Versions - Stable">
     <subsection title="Windows">
       <ul>
-        <li><a href="http://pingus.googlecode.com/files/Pingus-0.7.6.exe">Pingus-0.7.6.exe</a> [16 Mb]</li>
+        <li><a href="https://github.com/Pingus/downloads/blob/master/Pingus-0.7.6.exe?raw=true">Pingus-0.7.6.exe</a> [16 Mb]</li>
       </ul>
     </subsection>
 
     <subsection title="MacOSX">
       <ul>
-        <li><a href="http://pingus.googlecode.com/files/Pingus-0.7.6.2.dmg">Pingus-0.7.6.2.dmg</a> for Intel Macs [15MB]</li>
-        <li><a href="http://pingus.googlecode.com/files/Pingus-0.7.6-x86_64.dmg">Pingus-0.7.6-x86_64.dmg</a> for 64bit Intel Macs [15MB]</li>
+        <li><a href="https://github.com/Pingus/downloads/blob/master/Pingus-0.7.6.2.dmg?raw=true">Pingus-0.7.6.2.dmg</a> for Intel Macs [15MB]</li>
+        <li><a href="https://github.com/Pingus/downloads/blob/master/Pingus-0.7.6-x86_64.dmg?raw=true">Pingus-0.7.6-x86_64.dmg</a> for 64bit Intel Macs [15MB]</li>
       </ul>
     </subsection>
 
@@ -23,7 +23,7 @@
 
     <subsection title="Linux / Source">
       <ul>
-        <li><a href="http://pingus.googlecode.com/files/pingus-0.7.6.tar.bz2">pingus-0.7.6.tar.bz2</a> [13 MB]</li>
+        <li><a href="https://github.com/Pingus/downloads/blob/master/pingus-0.7.6.tar.bz2?raw=true">pingus-0.7.6.tar.bz2</a> [13 MB]</li>
       </ul>
     </subsection>
   </section>
