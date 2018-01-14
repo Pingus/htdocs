@@ -164,7 +164,7 @@
     <div class="screenshotmenu-center">
     <ul class="screenshotmenu">
       <li><a href="videos.html">Videos</a></li>
-      <li><a href="screenshots.html">0.8</a></li>
+      <!-- <li><a href="screenshots.html">0.8</a></li> -->
       <li><a href="screenshots-0.7.html">0.7</a></li>
       <li><a href="screenshots-0.6.html">0.6</a></li>
       <li><a href="screenshots-0.5.html">0.5</a></li>
