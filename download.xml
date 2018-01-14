@@ -31,7 +31,7 @@
   <section title="Development Versions">
     <p>The Git tree can be checked out via:</p>
     <ul>
-      <li><tt>git clone git@github.com:Pingus/pingus.git/</tt></li>
+      <li><span class="teletype">git clone git@github.com:Pingus/pingus.git/</span></li>
     </ul>
 
     <p>The Github project can be found at:</p>

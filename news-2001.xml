@@ -94,7 +94,7 @@
       
       <item date="13. Sep 2000">
         We have now an "official" IRC channel at:<br /> Server:
-        <tt>irc.openprojects.net</tt><br /> Channel: <tt>#pingus</tt>
+        <span class="teletype">irc.openprojects.net</span><br /> Channel: <span class="teletype">#pingus</span>
       </item>
 
       <item date="11. Aug 2000">

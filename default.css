@@ -9,6 +9,18 @@ body
   color: black;
 }
 
+.teletype {
+    font-family: monospace;
+}
+
+.key {
+    font-family: monospace;
+}
+
+.file {
+    font-family: monospace;
+}
+
 #logo
 { 
   text-align: center;
@@ -219,11 +231,13 @@ div.answer {
   margin-bottom: 1.5em;
 }
 
-TT.irc {
+.irc {
+  font-family: monospace;
   color: rgb(0,0,150);
 }
 
-TT.command {
+.command {
+  font-family: monospace;
   color: rgb(200, 0, 0);
 }
 

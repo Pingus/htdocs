@@ -25,7 +25,7 @@
     </p>
     
     <p>
-      <tt>git clone https://github.com/Pingus/pingus.git</tt><br/>
+      <span class="teletype">git clone https://github.com/Pingus/pingus.git</span><br/>
     </p>
   </section>
 </page>

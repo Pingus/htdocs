@@ -23,23 +23,23 @@
             Besides the 22 tested and cleaned up levels of the first island that
             come with Pingus. There are also around 120 levels that might be
             playable and another 100 levels that are incomplete at the moment.
-            These levels can be found in the <tt>data/levels/playable</tt> and
-            <tt>data/levels/wip/</tt> (wip = work in progress)
+            These levels can be found in the <span class="teletype">data/levels/playable</span> and
+            <span class="teletype">data/levels/wip/</span> (wip = work in progress)
             directories:
           </p>
           <dl>
-            <dt><tt>data/levels/playable/</tt></dt>
+            <dt><span class="teletype">data/levels/playable/</span></dt>
             <dd>
               The levels in the
-              <tt>playable/</tt> directory might be playable, but there
+              <span class="teletype">playable/</span> directory might be playable, but there
               is no guarantee for that. They might been broken due to
               engine changes, they might be far too easy or far too hard
               or simply incomplete.
             </dd>
 
-            <dt><tt>data/levels/wip/</tt></dt>
+            <dt><span class="teletype">data/levels/wip/</span></dt>
             <dd>
-              The <tt>wip/</tt> directory contains
+              The <span class="teletype">wip/</span> directory contains
               levels that are not playable at all. Some of them might
               even lack entrances and/or exits. Don't be surprised that
               you can't play them. Instead, these levels can be used as
@@ -106,7 +106,7 @@
             enough, not all is lost.</p>
           
           <p>If that is not enough, you might also want to play
-            with the <tt>min-frame-skip</tt> and <tt>max-frame-skip</tt>
+            with the <span class="teletype">min-frame-skip</span> and <span class="teletype">max-frame-skip</span>
             options.  Both should result in a more uniform frame-rate.
             This can make the game jerky, but playability can be
             improved nonetheless.</p>

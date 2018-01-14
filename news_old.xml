@@ -66,7 +66,7 @@
         After some downtime the Pingus CVS repository is up and running
         again. But since its now in another CVSROOT people with a
         checkout need either to re checkout it or editor they
-        <tt>CVS/Root</tt> files a bit, more info is available <a href="http://mail.gnu.org/archive/html/pingus-devel/2003-03/msg00063.html">here</a>.
+        <span class="teletype">CVS/Root</span> files a bit, more info is available <a href="http://mail.gnu.org/archive/html/pingus-devel/2003-03/msg00063.html">here</a>.
       </item>
 
       <item date="5. Mar 2003">
@@ -77,7 +77,7 @@
 
       <item date="26. Feb 2003">
         IRC Meeting planed for the next Saturday. For details see below and the <a href="contact.html">Contact Section</a> of this site.<br/><br/>
-        <table summary="">
+        <table>
           <tr><td>Server:</td><td><a href="http://freenode.net">irc.freenode.net</a> 6667</td></tr>
           <tr><td>Channel:</td><td>#pingus</td></tr>
           <tr><td>Date:</td><td>Saturday, 1. March 2003</td></tr>
@@ -266,7 +266,7 @@
       
       <item date="13. Sep 2000">
         We have now an "official" IRC channel at:<br /> Server:
-        <tt>irc.openprojects.net</tt><br /> Channel: <tt>#pingus</tt>
+        <span class="teletype">irc.openprojects.net</span><br /> Channel: <span class="teletype">#pingus</span>
       </item>
 
       <item date="11. Aug 2000">

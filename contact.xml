@@ -32,9 +32,9 @@
   </section>
 
   <section title="IRC">
-    <p>For a quick help you can try the IRC server <tt
-      class="irc">irc.freenode.net:6667</tt> and the channel <tt
-      class="irc">#pingus</tt>, you can find the project maintainer
+    <p>For a quick help you can try the IRC server <span
+      class="irc">irc.freenode.net:6667</span> and the channel <span
+      class="irc">#pingus</span>, you can find the project maintainer
       (nick: grumbel) there most of the time. From time to time there
       will also be IRC Meetings with larger parts of the development
       team, once such meetings happen, they will get announced in the

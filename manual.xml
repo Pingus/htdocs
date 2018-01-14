@@ -98,7 +98,7 @@
         block his way. Once at the top, he will turn back into a normal
         Walker. A Pingu that has learnt the ability to Climb will always
         keep it, you can see which Pingus can climb and which can't by the
-        little <tt>[c]</tt> in the info box that appears if you place the
+        little <span class="teletype">[c]</span> in the info box that appears if you place the
         cursor on a Pingu.
       </p>
     </subsection>
@@ -107,7 +107,7 @@
 
       <p>Like the Climber action, the Floater action will also stay with
         the Pingu once it is applied. This time you can see which Pingus
-        can float by the little <tt>[f]</tt> in the info box of the Pingu.
+        can float by the little <span class="teletype">[f]</span> in the info box of the Pingu.
         A Pingu that can Float will use his propeller-hat to reduce his
         falling speed during a fall. Once he has his propeller-hat on, he
         will be slow enough to not die on hitting the ground. So the

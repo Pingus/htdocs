@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <page title="Building a Pingus level">
   <p>
-    <img src="images/editor.jpg" align="right" alt="" />
+    <img src="images/editor.jpg" style="float: right;" alt="" />
   </p>
   
   <section title="Introduction">
@@ -15,14 +15,14 @@
   
   <section title="Starting from scratch">
     <a href="images/editor_tutorial_editor.jpg"><img
-        src="images/editor_tutorial_editor_small.jpg" alt="Editor" align="right" /></a>
+        src="images/editor_tutorial_editor_small.jpg" alt="Editor" style="float: right;" /></a>
     <p>
       First of launch Pingus and select the large <em>Editor</em>
       button. You are now inside the level editor. 
     </p>
     <p>
       Lets start with something simple, insert your first
-      object. Press the <tt class="key">Insert</tt> button on your keyboard or on the
+      object. Press the <span class="key">Insert</span> button on your keyboard or on the
       button panel at the left side of the screen. You will now see a
       list of object types you can insert. The letters in front of the
       type names describe the keys you have to press to insert the
@@ -31,18 +31,18 @@
     </p>
     <p>
       Ok, lets insert a ground piece of type ground, to do that press
-      <tt class="key">g</tt>. I'll explain the different ground piece types later
+      <span class="key">g</span>. I'll explain the different ground piece types later
       in this article. After a short loading sequence, you will see a
       list of all the gfx which are available. To
       scroll down the list simply move the mouse to the bottom of the
       screen. Now click on an object to insert it into the level.
     </p>
     <a href="images/editor_tutorial_objsel.jpg"><img
-        src="images/editor_tutorial_objsel_small.jpg" alt="Surface Selector" align="right" /></a>
+        src="images/editor_tutorial_objsel_small.jpg" alt="Surface Selector" style="float: right;" /></a>
     <p>
       The first ground piece is now in place, you can simply click on
       it and move it around when you hold down the mouse button. To
-      duplicate it press <tt class="key">d</tt>. The duplicated object
+      duplicate it press <span class="key">d</span>. The duplicated object
       will be inserted at the same position as the original object,
       only with a short offset to the bottom/right.<br /> If you want to
       move around the duplicated object, its a good idea to move it a
@@ -56,8 +56,8 @@
   <section title="Entrances">
     <p>
       Now that we have some ground to walk on, we need an entrance to
-      let the Pingus enter the level. Hit <tt class="key">insert</tt>
-      and <tt class="key">e</tt> for an entrance. You will now
+      let the Pingus enter the level. Hit <span class="key">insert</span>
+      and <span class="key">e</span> for an entrance. You will now
       see a list of entrance types, select the "generic"
       one. After that is done you will see a black arrow with a green
       "G" to its site, that is the entrance or more exactly the
@@ -69,8 +69,8 @@
   <section title="Exits">
     <p>
       The Pingus can now enter the level, lets place a exit so that
-      they can leave it again. Again press <tt class="key">Insert</tt> and then
-      select Exit with <tt class="key">x</tt>. You get the same list of surfaces
+      they can leave it again. Again press <span class="key">Insert</span> and then
+      select Exit with <span class="key">x</span>. You get the same list of surfaces
       you got when you inserted the ground piece. Select a surface,
       which looks like an exit and place it where the Pingus can reach
       it. Now your done the level should be ready for a test.
@@ -80,12 +80,12 @@
   <section title="Starting the level the first time">
     <a
       href="images/editor_tutorial_level.jpg"><img src="images/editor_tutorial_level_small.jpg"
-        alt="Level" align="right" /></a>
+        alt="Level" style="float: right;" /></a>
     <p>
       Now that the level is basically done, lets start it by pressing
-      <tt class="key">F4</tt> or the "Run" key on the
+      <span class="key">F4</span> or the "Run" key on the
       button panel. The level will than start and you can test it. If
-      your are done press <tt class="key">Esc</tt> or wait until the
+      your are done press <span class="key">Esc</span> or wait until the
       level is complete. After testing your level you will come back
       into the level editor.
     </p>
@@ -94,17 +94,17 @@
   <section title="Saving and loading">
     <p>
       Its a good idea to save the level from time to time, to do that
-      press <tt class="key">F6</tt> and enter a file name for it, for
-      example <tt class="file">my_test</tt>. Node that the filenames
-      <em>must not</em> have an ending like <tt class="file">.plf</tt>
-      or <tt class="file">.psm</tt>. The level will than be saved to
-      <tt class="file">~/.pingus/levels/my_test.plf</tt> and <tt
-        class="file">~/.pingus/levels/my_test.psm</tt><br />
+      press <span class="key">F6</span> and enter a file name for it, for
+      example <span class="file">my_test</span>. Node that the filenames
+      <em>must not</em> have an ending like <span class="file">.plf</span>
+      or <span class="file">.psm</span>. The level will than be saved to
+      <span class="file">~/.pingus/levels/my_test.plf</span> and <span
+        class="file">~/.pingus/levels/my_test.psm</span><br />
 
-      To load a level press <tt class="key">F5</tt> and input the filename. The
+      To load a level press <span class="key">F5</span> and input the filename. The
       dialog also has a primitive tab-completion. To use it activate
-      the console by pressing <tt class="key">^</tt> and then press
-      <tt class="key">Tab</tt>. The completion will go into the console. The tab-completion is currently not fully functional, therefor it will
+      the console by pressing <span class="key">^</span> and then press
+      <span class="key">Tab</span>. The completion will go into the console. The tab-completion is currently not fully functional, therefor it will
       only work in the default directory and in <em>no</em> other
       directory.
     </p>
@@ -122,19 +122,19 @@
   
   <h3>Changing the background</h3>
   <p>
-    To change the background press <tt class="key">F10</tt> and
+    To change the background press <span class="key">F10</span> and
     select one of the available backgrounds.
   </p>
   
   <h3>Building an entrance</h3>
   <a href="images/editor_tutorial_entrance.jpg"><img
-      src="images/editor_tutorial_entrance_small.jpg" alt="Entrance" align="right" /></a>
+      src="images/editor_tutorial_entrance_small.jpg" alt="Entrance" style="float: right;" /></a>
   <p>
     The default entrance just adds a position where the Pingus enter
     the level, but no gfx, so that is the next thing to add. To do
     that you have to use hotspots. Hotspots are graphical objects,
     which don't influence the collision map. To add a hotspot, press
-    <tt class="key">Insert</tt> and then <tt class="key">h</tt> and select a thing that
+    <span class="key">Insert</span> and then <span class="key">h</span> and select a thing that
     looks like an entrance. You need two surfaces for an entrance,
     one which is behind the Pingus and one that is above the
     Pingus to get a pseudo 3D effect.
@@ -142,26 +142,26 @@
 
   <p>
     Select the first hotspot and than lower it below the Pingus
-    level which is at z_pos 75. Press <tt class="key">Shift-PgDown</tt> to lower
+    level which is at z_pos 75. Press <span class="key">Shift-PgDown</span> to lower
     the z_pos value to -100, note that you can see the z-pos in the
-    status line. <tt class="key">PgDown</tt> itself will not change the
+    status line. <span class="key">PgDown</span> itself will not change the
     z-pos, but instead only change the ordering of all objects,
     which have the same z-pos. After your done with the bottom
     hotspots add the top hotspot, to raise it press
-    <tt class="key">Shift-PgUp</tt> and bring it to a z-pos value of
+    <span class="key">Shift-PgUp</span> and bring it to a z-pos value of
     100. Finally adjust the position so that it looks correct.
   </p>
 
   <h3>Adding some grass</h3>
   <a href="images/editor_tutorial_level2.jpg"><img
-      src="images/editor_tutorial_level2_small.jpg" alt="Level (beautified)" align="right" /></a>
+      src="images/editor_tutorial_level2_small.jpg" alt="Level (beautified)" style="float: right;" /></a>
   <p>
     Stones alone looks much to simple to be attractive, so lets add
     some grass.<br />Grass is special since it shouldn't influence the
     way the Pingus are walking over the ground, but it should be
     erasable by explosions and diggers or miners, for this reason
     there is the special ground type
-    "transparent". Press <tt class="key">Insert</tt> and <tt class="key">n</tt> and
+    "transparent". Press <span class="key">Insert</span> and <span class="key">n</span> and
     select a piece of grass and place it over the stones. Try to add some
     more ground pieces, and viola, the level looks much better now.
   </p>
@@ -171,7 +171,7 @@
     Now you might want to add some lava or water under the stones, but that
     is currently not implemented in the editor, so you have to
     editor the level files directly. Open your level file, which
-    should be saved under <tt class="file">~/.pingus/levels/my_test.plf</tt> and
+    should be saved under <span class="file">~/.pingus/levels/my_test.plf</span> and
     insert the following text at the end of the file:
   </p>
 
@@ -232,14 +232,14 @@
   <section title="Z-Pos">
 
     <p>To influence the ordering of objects you have two
-      possibilities, first you can simply lower and raise it with <tt
-        class="key">PgUp</tt> and <tt class="key">PgDown</tt>, but that
+      possibilities, first you can simply lower and raise it with <span
+        class="key">PgUp</span> and <span class="key">PgDown</span>, but that
       will only work inside a layer. For example if you want to raise
       one ground piece above another that's the right way, but if you
       want to lower a hotspot below the ground layer, than that's the
-      wrong way. To accomplish that you have to press <tt
-        class="key">Shift PgUp</tt> or <tt class="key">Shift PgDown</tt>
-      (or <tt class="key">Ctrl</tt>) to change the z-pos of the
+      wrong way. To accomplish that you have to press <span
+        class="key">Shift PgUp</span> or <span class="key">Shift PgDown</span>
+      (or <span class="key">Ctrl</span>) to change the z-pos of the
       object. If an object its below zero, than it will be draw behind
       the ground layer, if its above 75 it will get drawn above the
       ground map and the Pingus, if an object is between 0 and 75 it
