@@ -5,7 +5,6 @@ OUTPUTFILES = \
  build/halloween.css \
  build/snow.css \
  build/index.html      \
- build/about.html  \
  build/documentation.html  \
  build/news.html  \
  build/news_old.html  \
@@ -54,9 +53,6 @@ build/halloween.css : default.css halloween.css.sed compatibility.sed
 build/xmas.css : default.css xmas.css.sed compatibility.sed
 	sed -f "compatibility.sed" -f "xmas.css.sed" $< > $@
 
-build/index.html : index.html
-	cp -v $< $@
-
 build/%.html :: %.xml default.xsl Makefile menu.xml
 	@echo "----------------------------------------------------------------------------"
 	FILENAME=$<; \
@@ -65,10 +61,9 @@ build/%.html :: %.xml default.xsl Makefile menu.xml
 	tidy -modify -wrap 10000 -quiet -ashtml $@
 	sed -i 's_<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">_<!DOCTYPE html>_g' $@
 
-# Temporary disabled to avoid accidents: 04. Sep 2011
-# upload: all
-#	rsync --checksum --exclude "old/" --cvs-exclude -rv build/ \
-#          grumbel@pingus.seul.org:/home/pingus/public_html/
+upload: all
+	rsync --checksum --exclude "old/" --cvs-exclude -rv build/ \
+          grumbel@pingus.seul.org:/home/pingus/public_html/
 
 #tidy -asxml -indent -quiet -modify $@
 
