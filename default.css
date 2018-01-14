@@ -249,6 +249,7 @@ img
 img.screenshot {
   border-style: solid;
   border-width: thin;
+  display: inline-block;
 }
 
 a img.screenshot {

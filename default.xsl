@@ -110,31 +110,30 @@
     <h3><xsl:value-of select="@title" /></h3>
     <xsl:apply-templates />
   </xsl:template>
-  
+
   <xsl:template match="screenshots">
-    <table summary="" width="100%" border="0" cellpadding="0"  cellspacing="0">
-      
+    <table width="100%" border="0" cellpadding="0"  cellspacing="0">
       <tr>
-        <td align="center">
+        <td style="text-align: center;">
           <xsl:apply-templates select="item[1]"/>
         </td>
-        <td align="center">
+        <td style="text-align: center;">
           <xsl:apply-templates select="item[2]"/>
         </td>
-        <td align="center">
+        <td style="text-align: center;">
           <xsl:apply-templates select="item[3]"/>
         </td>
       </tr>
 
       <xsl:if test="count(item)>3">
         <tr>
-          <td align="center">
+          <td style="text-align: center;">
             <xsl:apply-templates select="item[4]"/>
           </td>
-          <td align="center">
+          <td style="text-align: center;">
             <xsl:apply-templates select="item[5]"/>
           </td>
-          <td align="center">
+          <td style="text-align: center;">
             <xsl:apply-templates select="item[6]"/>
           </td>
         </tr>
@@ -142,13 +141,13 @@
 
       <xsl:if test="count(item)>6">
         <tr>
-          <td align="center">
+          <td style="text-align: center;">
             <xsl:apply-templates select="item[7]"/>
           </td>
-          <td align="center">
+          <td style="text-align: center;">
             <xsl:apply-templates select="item[8]"/>
           </td>
-          <td align="center">
+          <td style="text-align: center;">
             <xsl:apply-templates select="item[9]"/>
           </td>
         </tr>
